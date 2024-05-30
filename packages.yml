@@ -1,0 +1,4 @@
+
+packages:
+  - package: fivetran/fivetran_log
+    version: 1.7.3
