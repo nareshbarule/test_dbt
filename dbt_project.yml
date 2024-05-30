@@ -5,6 +5,16 @@
 name: 'dbt_transform'
 version: '1.0.0'
 
+config-version: 2
+
+flags:
+  use_colors: true
+  warn_error: true
+  fail_fast: false
+  log_level: 'debug'
+  full_refresh: false
+  partial_parse: true
+
 # This setting configures which "profile" dbt uses for this project.
 profile: 'dbt_transform'
 
